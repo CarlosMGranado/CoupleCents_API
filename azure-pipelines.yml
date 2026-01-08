@@ -24,7 +24,7 @@ stages:
             inputs:
               command: build
               repository: $(imageName)
-              dockerfile: "$(Build.SourcesDirectory)/Dockerfile"
+              dockerfile: "$(Build.SourcesDirectory)/CoupleCentsAPI/Dockerfile"
               buildContext: "$(Build.SourcesDirectory)"
               tags: |
                 $(tag)
